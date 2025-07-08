@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Anil Kumar | Portfolio</title>
+  <link rel="icon" type="Images/nanashi-fv.png" href="Images/nanashi-fv.png" />
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+
+  <!-- 🔹 NAVIGATION BAR -->
+<header class="navbar">
+  <div class="logo">Anil Kumar</div>
+  <nav>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About Me</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+  <!-- 🔹 HERO SECTION -->
+  <!-- <header class="hero-section" id="home">
+    <div class="overlay">
+      <div class="hero-content">
+        <h1>Anil Kumar</h1>
+        <p>Frontend Developer & 3D Artist</p>
+        <a href="#projects" class="btn">View Projects</a>
+      </div>
+    </div>
+  </header> -->
+  <header class="hero-section" id="home">
+  <video autoplay muted loop playsinline class="bg-video">
+    <source src="Images/Bg-Home.mp4" type="video/mp4" />
+    Your browser does not support the video tag.
+  </video>
+  <div class="overlay">
+    <div class="hero-content">
+      <h1>Anil Kumar</h1>
+      <p>Frontend Developer & 3D Artist</p>
+      <a href="#projects" class="btn">View Projects</a>
+    </div>
+  </div>
+</header>
+
+
+  <!-- 🔹 ABOUT ME SECTION -->
+  <section class="about-section" id="about">
+    <div class="about-container">
+      <img src="Images/Nanashi dev.png" alt="Anil Kumar" class="profile-pic" />
+      <div class="about-text">
+        <h2>About Me</h2>
+        <p>
+          I'm <strong>Anil Kumar</strong>, a passionate frontend developer currently mastering HTML and CSS, with plans to dive deep into JavaScript next. I have a strong love for gaming and a big dream of creating my own game someday.
+
+Alongside web development, I specialize in 3D modeling, which allows me to bring immersive, visually striking designs to life. I enjoy building clean, futuristic websites — especially those inspired by sci-fi interfaces — but I'm also versatile and capable of designing all kinds of websites.
+
+I'm driven by creativity, curiosity, and a constant desire to learn and push boundaries in both design and development.
+        </p>
+      </div>
+    </div>
+  </section>
+  <section class="education-section" id="education">
+  <h2 class="section-title">Education</h2>
+  <div class="timeline">
+
+    <div class="timeline-item">
+      <div class="icon">🎓</div>
+      <div class="timeline-content">
+        <h3>10th Grade</h3>
+        <p>I completed my 10th grade from Sri Sai Vidya Mandira, where I balanced academics with a strong interest in sports. While I wasn't a top scorer, I was an active and disciplined student, building the foundation for my future growth.</p>
+      </div>
+    </div>
+
+    <div class="timeline-item">
+      <div class="icon">🎓</div>
+      <div class="timeline-content">
+        <h3>12th Grade</h3>
+        <p>I completed my 12th grade at Krupanidhi Pre-University College, specializing in PCMC (Physics, Chemistry, Mathematics, and Computer Science). My strong interest in computer science and programming motivated me to choose this stream and shaped my passion for technology and development.</p>
+      </div>
+    </div>
+
+    <div class="timeline-item">
+      <div class="icon">🎓</div>
+      <div class="timeline-content">
+        <h3>BTech in Computer Science</h3>
+        <p>I am currently a first-year B.Tech student at Mother Teresa Institute of Engineering and Technology, pursuing a degree in Computer Science and Engineering. My goal is to learn, build, and grow throughout my academic journey — gaining both theoretical knowledge and practical experience as I work towards becoming a skilled developer by the time I graduate.</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+  <!-- 🔹 Horizontal Auto-Sliding Project Carousel -->
+
+<section class="rotating-projects-section" id="projects">
+  <h2 class="section-title">Featured Projects</h2>
+  <div class="carousel-wrapper">
+    <div class="carousel-slider">
+      <div class="carousel-track">
+        <a href="https://your-project1-link.com" target="_blank" class="carousel-card"><img src="Images/Anime-bed.png" alt="Project 1"></a>
+        <a href="https://your-project2-link.com" target="_blank" class="carousel-card"><img src="Images/Donut.png" alt="Project 2"></a>
+        <a href="https://your-project3-link.com" target="_blank" class="carousel-card"><img src="Images/Galaxy-Fizz.png" alt="Project 3"></a>
+        <a href="https://your-project4-link.com" target="_blank" class="carousel-card"><img src="Images/Robo.png" alt="Project 4"></a>
+        <a href="https://your-project5-link.com" target="_blank" class="carousel-card"><img src="Images/katana.png" alt="Project 5"></a>
+        <!-- Duplicate for smooth loop -->
+        <a href="https://your-project1-link.com" target="_blank" class="carousel-card"><img src="Images/Anime-bed.png" alt="Project 1 Clone"></a>
+        <a href="https://your-project2-link.com" target="_blank" class="carousel-card"><img src="Images/Donut.png" alt="Project 2 Clone"></a>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- 🔹 Contact Section -->
+<section class="contact-section" id="contact">
+  <h2 class="contact-title">Get in Touch</h2>
+  <p class="contact-description">
+    I'm always open to discussing new projects, creative ideas, or just a friendly chat. Feel free to reach out,
+    and I’ll get back to you as soon as possible.
+  </p>
+
+  <form class="contact-form" action="https://formspree.io/f/mrbkwbrb" method="POST">
+    <input type="text" name="name" placeholder="Your Name" required>
+    <input type="email" name="email" placeholder="Your Email" required>
+    <textarea name="message" placeholder="Your Message" required></textarea>
+    <button type="submit">Send Message</button>
+  </form>
+      <div class="contact-icons">
+        <a href="https://github.com/nanashiidev" target="nanashiidev" aria-label="GitHub">
+        <i class="fab fa-github"></i>
+    </a>
+       <a href="https://linkedin.com/in/yourprofile" target="_blank" aria-label="LinkedIn">
+       <i class="fab fa-linkedin"></i>
+     </a>
+       <a href="https://www.instagram.com/nanashiidev/?hl=en" target="nanashiidev" aria-label="Instagram">
+    <i class="fab fa-instagram"></i>
+  </a>
+     <a href="https://x.com/3d_astra" target="3d_astra" aria-label="Twitter/X">
+    <i class="fab fa-x-twitter"></i> <!-- or fa-twitter if X not available -->
+  </a>
+</div>
+</section>
+<footer class="site-footer">
+  <p>© 2025 Anil Kumar. All rights reserved.</p>
+ <p>Made with ❤️ by <strong>Anil Kumar</strong></p>
+
+</footer>
+
+</body>
+</html>
